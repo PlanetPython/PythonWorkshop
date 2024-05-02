@@ -7,16 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-ipython = "^8.20.0"
-jupyterlab = "^4.0.11"
+ipython = "^8.24.0"
+jupyterlab = "^4.1.8"
 
 [tool.poetry.group.dev.dependencies]
 jupyter-book = "^1.0.0"
-sphinx-sitemap = "^2.5.1"
-pytest = "^8.0.0"
-black = {extras = ["jupyter"], version = "^24.1.1"}
+sphinx-sitemap = "^2.6.0"
+pytest = "^8.2.0"
+black = {extras = ["jupyter"], version = "^24.4.2"}
 black-nb = "^0.7"
-pyppeteer = "^1.0.2"
+pyppeteer = "^2.0.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
