@@ -13,7 +13,7 @@ jupyterlab = "^4.2.3"
 [tool.poetry.group.dev.dependencies]
 jupyter-book = "^1.0.0"
 sphinx-sitemap = "^2.6.0"
-pytest = "^8.2.2"
+pytest = "^8.3.3"
 black = {extras = ["jupyter"], version = "^24.4.2"}
 black-nb = "^0.7"
 pyppeteer = "^2.0.0"
