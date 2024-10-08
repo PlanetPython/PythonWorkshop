@@ -11,7 +11,7 @@ ipython = "^8.26.0"
 jupyterlab = "^4.2.3"
 
 [tool.poetry.group.dev.dependencies]
-jupyter-book = "^1.0.0"
+jupyter-book = "^1.0.3"
 sphinx-sitemap = "^2.6.0"
 pytest = "^8.2.2"
 black = {extras = ["jupyter"], version = "^24.4.2"}
